@@ -19,9 +19,8 @@ while current < 4000000 :
     
     if current%2 == 0 : 
         state = 'even number' 
-    else:
-            state = 'odd number'
-    if state=='even number':
         sumFibonaci = sumFibonaci + current
+    else:
+        state = 'odd number'         
     print(orderFibonaci,'. ', current,' ', state)
 print('Sum of even number is ', sumFibonaci)
